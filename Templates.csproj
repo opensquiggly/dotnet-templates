@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <PackageType>Template</PackageType>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageVersion>1.0.2</PackageVersion>
         <PackageId>OpenSquiggly.Templates</PackageId>
         <Title>Your Template Package Title</Title>
         <Authors>Your Name</Authors>
@@ -16,11 +16,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <!-- Include all template files in the package -->
-        <Content Include="**\*.*" Exclude="**\bin\**;**\obj\**;**\*.csproj;**\*.user;**\*.sln">
-            <Pack>true</Pack>
-            <PackagePath>content/</PackagePath>
-        </Content>
+        <Content Include="templates\**\*" Exclude="**\bin\**;**\obj\**;**\launchSettings.json;**\node_modules\**;**\*.user;**\.vs\**;**\.vscode\**;templates\Directory.Build.*;**\.template.config.src\**" />
+        <Compile Remove="**\*" />
     </ItemGroup>
 
 </Project>
