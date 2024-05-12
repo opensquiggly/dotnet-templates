@@ -20,3 +20,9 @@ jobs:
           pwd
           ls -lga
           dotnet build -c Release
+      - name: Publish
+        run: |
+          ls templates/bin/Release
+          dotnet templates/bin/Release/monolith+sveltekit.*.nupkg --skip-duplicate --no-symbols --source https://api.nuget.org/v3/index.json --api-key ${{secrets.PUBLISH_TO_NUGET_ORG}}
+        env:
+          NUGET_AUTH_TOKEN: ${{secrets.PUBLISH_TO_NUGET_ORG}}
