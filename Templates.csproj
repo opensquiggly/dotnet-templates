@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <PackageType>Template</PackageType>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageId>OpenSquiggly.Templates</PackageId>
+        <Title>Your Template Package Title</Title>
+        <Authors>Your Name</Authors>
+        <Description>This package contains a .NET template for creating projects.</Description>
+        <IncludeContentInPack>true</IncludeContentInPack>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <ContentTargetFolders>content</ContentTargetFolders>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageReleaseNotes>Initial release of the template.</PackageReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Include all template files in the package -->
+        <Content Include="**\*.*" Exclude="**\bin\**;**\obj\**;**\*.csproj;**\*.user;**\*.sln">
+            <Pack>true</Pack>
+            <PackagePath>"/"</PackagePath>
+        </Content>
+    </ItemGroup>
+
+</Project>
