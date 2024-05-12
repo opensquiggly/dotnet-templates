@@ -15,4 +15,6 @@ jobs:
       - run: echo "Hello"
       - name: Pack
         run: |
+          pwd
+          ls -lga
           dotnet build -c Release
