@@ -13,3 +13,7 @@ jobs:
         shell: bash
     steps:
       - run: echo "Hello"
+      - name: Pack
+        run: |
+          cd /
+          dotnet build -c Release
