@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "OpenSquiggly, Inc.",
+    "classifications": [ "Web" ],
+    "identity": "OpenSquiggly.Monolith+SvelteKit",
+    "name": "Simple Monolith Web Architecture using SvelteKit and Vite",
+    "shortName": "monolith+sveltekit",
+    "sourceName": "MonolithSolution",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "symbols": {
+        "use-typescript": {
+            "type": "parameter",
+            "description": "Use TypeScript/TSX files",
+            "datatype": "bool",
+            "defaultValue": "false",
+            "enableQuotelessLiterals": true
+        }
+    }
+}
