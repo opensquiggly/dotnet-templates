@@ -3,16 +3,16 @@
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <PackageType>Template</PackageType>
-        <PackageVersion>1.0.3</PackageVersion>
+        <PackageVersion>1.0.4</PackageVersion>
         <PackageId>OpenSquiggly.Templates</PackageId>
-        <Title>Your Template Package Title</Title>
+        <Title>OpenSquiggly .NET Templates</Title>
         <Authors>Your Name</Authors>
-        <Description>This package contains a .NET template for creating projects.</Description>
+        <Description>Creates projects patterned after the OpenSquiggly internal source code</Description>
         <IncludeContentInPack>true</IncludeContentInPack>
         <IncludeBuildOutput>false</IncludeBuildOutput>
         <ContentTargetFolders>content</ContentTargetFolders>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageReleaseNotes>Initial release of the template.</PackageReleaseNotes>
+        <PackageReleaseNotes>None</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
