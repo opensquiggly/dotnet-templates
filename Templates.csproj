@@ -19,7 +19,7 @@
         <!-- Include all template files in the package -->
         <Content Include="**\*.*" Exclude="**\bin\**;**\obj\**;**\*.csproj;**\*.user;**\*.sln">
             <Pack>true</Pack>
-            <PackagePath>"/"</PackagePath>
+            <PackagePath>content/</PackagePath>
         </Content>
     </ItemGroup>
 
