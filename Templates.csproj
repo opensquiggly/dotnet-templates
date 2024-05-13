@@ -16,7 +16,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Content Include="templates\.editorconfig;templates\.gitignore;templates\**\*;templates\**\.editorconfig;templates\**\.gitignore" Exclude="**\bin\**;**\obj\**;**\launchSettings.json;**\node_modules\**;**\*.user;**\.vs\**;**\.vscode\**;templates\Directory.Build.*;**\.template.config.src\**" />
+        <Content Include="templates\**\*;templates\**\.editorconfig;templates\**\.gitignore" Exclude="**\bin\**;**\obj\**;**\launchSettings.json;**\node_modules\**;**\*.user;**\.vs\**;**\.vscode\**;templates\Directory.Build.*;**\.template.config.src\**" />
         <Compile Remove="**\*" />
     </ItemGroup>
 
