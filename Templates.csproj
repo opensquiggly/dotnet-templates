@@ -13,6 +13,8 @@
         <ContentTargetFolders>content</ContentTargetFolders>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageReleaseNotes>None</PackageReleaseNotes>
+        <NoDefaultExcludes>true</NoDefaultExcludes>
+        <NoPackageAnalysis>true</NoPackageAnalysis>
     </PropertyGroup>
 
     <ItemGroup>

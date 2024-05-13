@@ -11,6 +11,17 @@
         "type": "project"
     },
     "preferNameDirectory": true,    
+    "sources": [
+      {
+        "source": "./",
+        "target": "./",
+        "include": [
+          "**/*",
+          ".editorconfig",
+          ".gitignore"
+        ]
+      }
+    ],
     "symbols": {
         "use-typescript": {
             "type": "parameter",
